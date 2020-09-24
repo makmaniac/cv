@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Test Task</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand" href="#"><i class="fas fa-sliders-h"></i></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form action="#" method="POST" class="form-inline ml-auto">
+          <input type="text" class="form-control mr-sm-2 search" placeholder="Search" />
+          <button class="btn btn-warning mag"><i class="fas fa-search"></i></button>
+        </form>
+        <ul class="navbar-nav ml-auto pt">
+          <li id="search" class="nav-item">
+            <a href="#" class="btn btn-warning">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>
+              <p class="smh">Account</p>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Account</a>
+          <a class="dropdown-item" href="#">Call Us</a>
+          <a class="dropdown-item" href="#">Give Feedback</a>
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-file-alt"></i>
+              <p class="smh">Orders</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>
+              <p class="smh">Cart</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <h2>Recommended Products</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <span>Selected Filters</span>
+        <div class="float-right">
+          <label for="sort">Sort By:</label>
+          <select id="product_list" name="product_list_sort">
+            <option value="popularity">Popularity</option>
+            <option value="ratings">Lowest Price</option>
+            <option value="lowtohigh">Most Stock</option>
+            <option value="hightolow">Model A - Z</option>
+            <option value="Codeno">Code No.</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="row tr">
+      <div class="col-md-6" style="position:relative;">
+        <span class="mus_yellow"><strong>Premium Bestseller</strong></span>
+        <div class="col-md-12 white">
+<!-- Desktop & Tablet Landscape -->
+          <table class="table desk">
+            <tbody>
+              <tr>
+                <td rowspan="3"><img class="bestseller" src="images/bestseller.png" /></td>
+                <td colspan="4"><a href="#"><h3>Continental - Contiecocontact 5</h3></a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">205/55 R16 H<br />SUV</span></td>
+                <td><span class="table_data">Stock <i class="fas fa-check-circle"></i><br />Price &#8362;340</span></td>
+                <td><span class="table_data">Total <strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+                <td colspan="2"><button style="width:125px;" type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+<!-- Desktop & Tablet Landscape End -->
+<!-- Tablet Vertical -->
+          <table id="vtab" class="table-responsive">
+            <tbody>
+              <tr>
+                <td rowspan="3"><img class="bestseller" src="images/bestseller.png" /></td>
+                <td colspan="3"><a href="#">
+                    <h5>Continental PremiumContact&#8482; 6</h5>
+                  </a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<br /><strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="3"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+<!-- Tablet Vertical End -->
+        </div>
+      </div>
+
+      <div class="col-md-6" style="position:relative;">
+        <span class="mus_yellow"><strong>Economy Bestseller</strong></span>
+        <div class="col-md-12 white">
+<!-- Desktop & Tablet Landscape -->
+          <table class="table desk">
+            <tbody>
+              <tr>
+                <td rowspan="3"><img class="bestseller" src="images/bestseller.png" /></td>
+                <td colspan="4"><a href="#">
+                    <h3>Continental - Contiecocontact 5</h3>
+                  </a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+                <td><span class="table_data">Stock <i class="fas fa-check-circle"></i><br />Price &#8362;340</span></td>
+                <td><span class="table_data">Total <strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+                <td colspan="2"><button style="width:125px;" type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+<!-- Desktop & Tablet Landscape End-->
+<!-- Tablet Vertical -->
+          <table id="vtab" class="table-responsive">
+            <tbody>
+              <tr>
+                <td rowspan="3"><img class="bestseller" src="images/bestseller.png" /></td>
+                <td colspan="3"><a href="#">
+                    <h5>Continental PremiumContact&#8482; 6</h5>
+                  </a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<br /><strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="3"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+<!-- Tablet Vertical End -->
+        </div>
+      </div>
+
+    </div>
+    <!-- Mobile -->
+    <div class="container-fluid testimonial-group mob">
+      <div class="row">
+        <div class="col-md-6">
+
+          <table id="vtab" class="table mobt">
+            <tbody>
+              <tr>
+                <td rowspan="3" style="vertical-align:middle;"><img class="bestseller" style="height:50%;" src="images/bestseller.png" /></td>
+                <td colspan="3"><a href="#">
+                    <h5>Continental<br />PremiumContact&#8482; 6</h5>
+                  </a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<br /><strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button style="width:30px;" type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input style="width:30px;" type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button style="width:30px;" type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="3" style="text-align:center"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col-md-6">
+
+          <table id="vtab" class="table mobt">
+            <tbody>
+              <tr>
+                <td rowspan="3" style="vertical-align:middle;"><img style="height:50%;" class="bestseller" src="images/bestseller.png" /></td>
+                <td colspan="3"><a href="#">
+                    <h5>Continental<br />PremiumContact&#8482; 6</h5>
+                  </a></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<br /><strong>&#8362;1,360</strong></span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button style="width:30px;" type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input style="width:30px;" type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button style="width:30px;" type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="3" style="text-align:center;"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+    <!-- Mobile -->
+
+
+<!-- Desktop -->
+    <div class="row dt">
+      <div class="col-md-12 mt-20">
+        <table class="table white">
+          <tbody>
+            <tr>
+              <td><a href="#">Continental <br />PremiumContact&#8482;6</a></td>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              <td class="stock"><span class="table_data">Stock <i class="fas fa-check-circle"></i></span></td>
+              <td><span class="table_data">Price &#8362;340</span></td>
+              <td>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="4">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+              <td><span class="table_data">Total <strong>&#8362;1,360</strong></span></td>
+              <td><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+            </tr>
+
+
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row dt">
+      <div class="col-md-12">
+        <table class="table white">
+          <tbody>
+            <tr>
+              <td><a href="#">Continental <br />PremiumContact&#8482;6</a></td>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              <td class="stock"><span class="table_data">Stock <i class="fas fa-exclamation-circle"></i><br /><strong>8 Tires Left</strong></span></td>
+              <td><span class="table_data">Price &#8362;340</span></td>
+              <td>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="4">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+              <td><span class="table_data">Total <strong>&#8362;1,360</strong></span></td>
+              <td><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+            </tr>
+
+
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row dt">
+      <div class="col-md-12">
+        <table class="table white">
+          <tbody>
+            <tr>
+              <td><a href="#">Continental <br />PremiumContact&#8482;6</a></td>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              <td class="stock"><span class="table_data">Stock <i class="fas fa-times-circle"></i><br /><strong style="color:#8E1216;">Back in 1 week!</strong></span></td>
+              <td><span class="table_data">Price &#8362;340</span></td>
+              <td>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="4">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+              <td><span class="table_data">Total <strong>&#8362;1,360</strong></span></td>
+              <td><button type="button" class="btn btn-outline-warning br"><i class="fas fa-bell"></i> <strong style="color:#000000;">Notify Me!</strong></button></td>
+            </tr>
+
+
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+<!-- Desktop End -->
+
+
+
+<!-- Tablet Vertical & Small Screens -->
+    <div class="row tv">
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<i class="fas fa-exclamation-circle"></i><br /><strong>8 Tires Left</strong></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div class="row tv">
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<i class="fas fa-times-circle"></i><br /><strong style="font-size:smaller;">Back in 1 week!</strong></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="4">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div class="row tv">
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div class="row tv">
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12 white">
+          <table id="vtab" class="table">
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="#">
+                    <h6>Continental PremiumContact&#8482; 6</h6>
+                  </a></td>
+                <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+              </tr>
+              <tr>
+                <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+                <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+                <td><span class="table_data">Price<br />&#8362;340</span></td>
+                <td><span class="table_data">Total<strong>&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width:50%;">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </span>
+                    <input type="text" class="form-control input-number" value="8">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-number">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+
+                <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+<!-- Tablet Vertical-->
+<!-- Mobile -->
+    <div class="row mob">
+      <div class="col-md-12">
+        <table id="vtab" class="table">
+          <tbody>
+            <tr>
+              <td colspan="2"><a href="#">
+                  <h6>Continental PremiumContact&#8482; 6</h6>
+                </a></td>
+              <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">Stock<br /><i class="fas fa-check-circle"></i></span></td>
+              <td><span class="table_data">Price<br />&#8362;340</span></td>
+              <td><span class="table_data">Total <strong style="font-size:20px;">&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="width:50%;">
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="8">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+
+              <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row mob">
+      <div class="col-md-12">
+        <table id="vtab" class="table">
+          <tbody>
+            <tr>
+              <td colspan="2"><a href="#">
+                  <h6>Continental PremiumContact&#8482; 6</h6>
+                </a></td>
+              <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">Stock <i class="fas fa-exclamation-circle"></i><br /><strong style="font-size:smaller;">8 Tires Left</strong></span></td>
+              <td><span class="table_data">Price<br />&#8362;340</span></td>
+              <td><span class="table_data">Total <strong style="font-size:20px;">&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="width:50%;">
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="8">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+
+              <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row mob">
+      <div class="col-md-12">
+        <table id="vtab" class="table">
+          <tbody>
+            <tr>
+              <td colspan="2"><a href="#">
+                  <h6>Continental PremiumContact&#8482; 6</h6>
+                </a></td>
+              <td colspan="2"><span class="table_data">195/55 R15 85V <br />SUV</span></td>
+            </tr>
+            <tr>
+              <td><img src="images/Logo_OE_Approved_1c_black_final@1X.png" /></td>
+              <td><span class="table_data">Stock <i class="fas fa-times-circle"></i><br /><strong style="color:#8E1216;font-size:smaller;">Back in 1 Week!</strong></span></td>
+              <td><span class="table_data">Price<br />&#8362;340</span></td>
+              <td><span class="table_data">Total <strong style="font-size:20px;">&#8362;2,312</strong><br /><span style="color:#8E1216;">Save &#8362;408!</span></span></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="width:50%;">
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="enabled">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                  </span>
+                  <input type="text" class="form-control input-number" value="8">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </td>
+
+              <td colspan="2"><button type="button" class="btn btn-warning br"><i class="fas fa-cart-plus"></i> <strong>Add to Cart</strong></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Mobile End -->
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn btn-outline-secondary btn-block br">Load More Results</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

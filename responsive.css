@@ -1,0 +1,192 @@
+@media (min-width: 375px){
+.form-inline {
+  display:none;
+}
+.navbar-nav{
+  overflow: visible;
+}
+.fa-user {
+    font-size: 32px;
+    color: #9C9D9D;
+}
+.fa-file-alt {
+    font-size: 24px;
+    color: #9C9D9D;
+}
+.fa-shopping-cart {
+    font-size: 22px;
+    color: #9C9D9D;
+}
+.smh {
+  display:none;
+}
+.nav-item {
+  padding:7px;
+}
+  .dt {
+    display:none;
+  }
+  .s {
+    display:flex;
+  }
+  .tv {
+    display:none;
+  }
+  td span {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .desk {
+    display:none;
+  }
+  .tr {
+    display:none;
+  }
+  .testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.testimonial-group > .row > .col-md-6 {
+  display: inline-block;
+  float: none;
+}
+.bestseller {
+  margin:0px;
+}
+}
+@media (min-width: 768px){
+  .form-inline {
+    display: contents;
+  }
+  .navbar-nav{
+    overflow: hidden;
+  }
+  .fa-user {
+      font-size: 32px;
+      color: #9C9D9D;
+  }
+  .fa-file-alt {
+      font-size: 24px;
+      color: #9C9D9D;
+  }
+  .fa-shopping-cart {
+      font-size: 22px;
+      color: #9C9D9D;
+  }
+  .smh {
+    display:flex;
+  }
+  .nav-item {
+    padding:16px;
+  }
+  .search {
+    width:300px !important;
+  }
+.bestseller {
+  margin: 0;
+  width:90%;
+}
+.desk {
+  display: none;
+}
+.white {
+  padding-left:0;
+  padding-right:0;
+}
+.mus_yellow {
+  position: absolute;
+  top:-13px;
+  z-index:1;
+}
+.dt {
+  display:none;
+}
+.tv {
+  display:flex;
+  margin-top:15px;
+}
+.mob {
+  display:none;
+}
+#search {
+  display: none;
+}
+.tr
+{
+  display:flex;
+}
+}
+
+@media (min-width: 992px){
+  .form-inline {
+    display: inline-flex;
+  }
+  .navbar-nav{
+    overflow: hidden;
+  }
+  .fa-user {
+      font-size: 32px;
+      color: #9C9D9D;
+  }
+  .fa-file-alt {
+      font-size: 24px;
+      color: #9C9D9D;
+  }
+  .fa-shopping-cart {
+      font-size: 22px;
+      color: #9C9D9D;
+  }
+  .smh {
+    display:flex;
+  }
+  .nav-item {
+    padding:16px;
+  }
+  .search {
+    width:500px !important;
+  }
+  .dt {
+    display:block;
+  }
+  .tv {
+    display:none;
+  }
+  .mob {
+    display:none;
+  }
+  .desk {
+    display:flex;
+  }
+  #search {
+    display: none;
+  }
+  #vtab {
+    display:none;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .tv {
+    display:none;
+  }
+
+  .mob {
+    display:none;
+  }
+  .stock {
+    width:180px;
+  }
+  .bestseller {
+    width:80%;
+  }
+  #search {
+    display: none;
+  }
+  .search {
+    width:500px !important;
+    border-radius:25px;
+  }
+}
